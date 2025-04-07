@@ -305,83 +305,6 @@
     scroll-behavior: smooth;
   }
   
-/* @media screen and (min-width: 350px) and (max-width: 768px) {
-  #profileimg {
-    flex: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-left: 0;
-    padding-bottom: 0;
-    margin-bottom: 0;
-    margin-top: 30px;
-  }
-  .navbar1 {
-    display: none;
-  
-  }
-  
-
-  #indiv {
-    width: 300px;
-    height: 320px;
-    background-image: url('Himanshu.png');
-    background-size: cover;
-    background-position: center;
-    border-radius: 50%;
-    box-shadow: 0 6px 25px rgba(0, 0, 0, 0.1);
-  }
-
-  #intro {
-    padding-left: 20px;
-    padding-bottom: 0;
-    margin-bottom: 0;
-    
-  }
-
-  #page1 {
-    flex-direction: column;
-    height: auto;
-    padding-top: 100px;
-    padding-bottom: 50px;
-  }
-  
-  #logo {
-    font-size: 39px;
-    font-weight: 700;
-    font-family: 'Playfair Display', serif;
-    color: #180767;
-    margin-left: 25px;
-  }
-  #first h2,
-   #first1 h2 {
-     font-size: 39px;
-     background-color: #214cfa;
-     color:white;
-     border-radius: 10px;
-     padding: 15px;
-     
-    }
-   .text h1 {
-    font-size: 26px;
-    color: #0f2f7a;
-    }
-  .text h2 {
-    font-size: 18px;
-    color: #444;
-    }
-    #first2 h1{
-      font-size:45px;
-      background-color: #214cfa;
-       color:white;
-       border-radius: 10px;
-       padding-left: 65px;
-       padding-right: 65px;
-   }
-   html {
-    scroll-behavior: smooth;
-  }  
-}  */
 @media screen and (min-width: 350px) and (max-width: 768px) {
   html, body {
     scroll-behavior: smooth;
@@ -492,6 +415,15 @@
     background-size: cover;
     background-position: center;
     box-shadow: 0 6px 22px rgba(0, 0, 0, 0.1);
+  }
+  #page1,
+  #page2,
+  #page3,
+  #page4 {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: scroll;
   }
 }
 
